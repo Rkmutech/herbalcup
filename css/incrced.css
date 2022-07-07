@@ -1,0 +1,48 @@
+body{
+  background-image:  url('D:\herbaltea\Images\background image.jpg');
+
+}
+
+.columpadding
+{
+  margin-left: 150px;
+  
+}
+  /* Create three equal columns that floats next to each other */
+  .column {
+    padding: auto;
+    font-family: "Garamond", Times, serif;
+    
+    float: left;
+    width: 31%;
+    padding: 8px;
+    height: 500px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  /* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+body {
+  margin:0;
+  padding:0;
+  
+  }
+  
