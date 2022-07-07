@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&;600&display=swap');
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+*
+
+
+
+
+
+.slider-wrapper {
+	width: 100%;
+	height: 400px;
+	position: relative;
+  
+}
+
+.slide {
+	
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+	
+}
+
+
+
+/*swipper product*/
+.main
+{
+  background-color: aliceblue;
+  padding: 4rem 0;
+}
+.slide-container
+{
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
+
+}
+.arrow{
+  width: 2em;
+  margin: 0 1rem;
+}
+.section
+{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/*swipper product*/
+
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer {
+  background-color: #555;
+  color: #bbb;
+  line-height: 1.5;
+}
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+a:hover {
+  text-decoration: underline;
+}
+.ft-title {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
+}
+/* Sticks footer to bottom */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.container {
+  flex: 1;
+}
+/* Footer main */
+
+
