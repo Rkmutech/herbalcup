@@ -1,0 +1,57 @@
+.google{
+	position: relative;
+	top: 30px;
+    padding-left: 44%;
+	
+}
+
+.fb{
+    float: center;
+	position: relative;
+	top: 40px;
+	width: 25%;
+    padding-left:44%;	
+}
+
+
+* {box-sizing: border-box}
+
+
+input[type=text], input[type=password] {
+    width: 400px;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(7, 3, 3);
+    box-sizing: border-box;
+  }
+  
+  .ch button {
+    background-color: #FFD700;
+    color: rgb(17, 12, 12);
+    padding: 14px 25px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+  }
+  
+  .details{
+      padding-left: 6%;
+    text-align:center;
+  }
+
+  
+  .ch button:hover {
+    opacity: 0.8;
+    
+    
+  }
+  
+  
+  
+  .container-2 {
+    padding: 20px;
+    text-align: center;
+    
+  }
